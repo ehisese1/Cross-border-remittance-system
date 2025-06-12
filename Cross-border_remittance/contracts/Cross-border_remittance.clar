@@ -286,7 +286,6 @@
     )
   )
 )
-
 ;; Allow anyone to mark an expired transfer as expired (for gas efficiency)
 (define-public (mark-expired (transfer-id uint))
   (begin
