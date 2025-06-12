@@ -224,7 +224,6 @@
     )
   )
 )
-
 ;; Claim a transfer (by recipient)
 (define-public (claim-transfer (transfer-id uint))
   (let ((transfer-data (unwrap! (get-transfer transfer-id) ERR_TRANSFER_NOT_FOUND)))
