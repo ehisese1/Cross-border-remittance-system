@@ -318,7 +318,6 @@
     (ok (var-set contract-paused false))
   )
 )
-
 ;; Withdraw collected fees (only contract owner)
 (define-public (withdraw-fees)
   (let ((fees (var-get total-fees-collected)))
